@@ -1,0 +1,264 @@
+@font-face {
+  font-family:Titlefont;
+  src: url(letterfonts/OceansideTypewriter.ttf);
+}
+@font-face {
+  font-family:Imagefont;
+  src: url(letterfonts/CiutadellaRegular.ttf);
+}
+
+.header{
+
+background-color:rgb(20, 37, 24);
+width:100%;
+
+}
+
+.welcomeText1{
+  
+    color: rgb(223, 224, 156);
+    font-size: 39px ;
+    font-family: Titlefont;
+    text-align: center;
+    top:-50px;
+     position:relative ;
+
+}
+
+.welcomeText2{
+  
+    color: rgb(223, 224, 156);
+    font-size: 39px ;
+    font-family: Titlefont;
+    text-align: center;
+    top:-50px;
+    left:8px;
+     position:relative ;
+
+}
+
+.photoHoverText{
+
+    text-align: left;
+    font-family:Imagefont;
+    color: aliceblue;
+    font-size: 60px ;
+    top:310px;
+    left: 80px;
+     position: relative;
+
+}
+
+.slogan{
+
+    text-align: left;
+    font-family:Imagefont;
+    color: aliceblue;
+    font-size: 25px ;
+    top:-150px;
+    left: 80px;
+     position: relative;
+
+}
+
+.inscriptText{
+
+  color: rgb(20, 37, 24);
+  font-family:Imagefont;
+  font-size: 50px ;
+  top:120px;
+  left:65px;
+  position: relative;
+
+}
+
+.inscriptionsSection{
+
+background-color: rgb(223, 224, 156) ;
+top: -16px;
+width: 100%;
+position: static;
+
+}
+
+.workgroupSection{
+
+  position: relative;
+  background-color: aliceblue;
+
+}
+
+.workgroupText{
+
+  text-align: justify;
+  left: 285px;
+  font-size: 49px ;
+  color: rgb(20, 37, 24);
+  position:relative;
+  font-family:Imagefont;
+
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.memberSection{
+
+width: 100vw;
+height: 450px;
+padding: 10px;
+
+position: static;
+display: inline-block;
+
+columns: 1;
+text-align: center;
+
+}
+
+.eventSection{
+
+width: 100vw;
+height: 450px;
+padding: 10px;
+
+position: static;
+display: inline-block;
+
+columns: 1;
+text-align: center;
+
+}
+
+.member1{
+border: 5px;
+list-style-type: none;
+height: 100%;
+padding: 20px;
+margin: 0 10px;
+
+display: inline-block;
+text-align: left;
+}
+
+.member2{
+border: 5px;
+list-style-type: none;
+height: 100%;
+padding: 20px;
+margin: 0 10px;
+
+display: inline-block;
+text-align: left;
+}
+
+.member3{
+border: 5px;
+list-style-type: none;
+height: 100%;
+padding: 20px;
+margin: 0 10px;
+
+display: inline-block;
+text-align: left;
+}
+
+.member4{
+border: 5px;
+list-style-type: none;
+height: 100%;
+padding: 20px;
+margin: 0 10px;
+
+display: inline-block;
+text-align: left;
+}
+
+.member1:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 100px rgb(20, 37, 24);
+}
+
+.member2:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 100px rgb(20, 37, 24);
+}
+
+.member3:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 100px rgb(20, 37, 24);
+}
+
+.member4:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 100px rgb(20, 37, 24);
+}
+
+.event1{
+border: 5px;
+list-style-type: none;
+height: 100%;
+
+display: inline-block;
+text-align: center;
+}
+
+.event2{
+border: 5px;
+list-style-type: none;
+height: 100%;
+
+display: inline-block;
+text-align: center;
+}
+
+.event3{
+border: 5px;
+list-style-type: none;
+height: 100%;
+
+display: inline-block;
+text-align: center;
+}
+
+.member1Text{
+text-align: left;
+}
+
+.member2Text{
+text-align: left;
+}
+
+.member3Text{
+text-align: left;
+}
+
+.member4Text{
+text-align: left;
+}
+
+.footer{
+
+background-color:rgb(0, 0, 0);
+color: aliceblue;
+position: static;
+
+}
+
+.socialMediaIcons{
+
+  display: inline-block;
+  position: relative;
+  left: 120px; 
+  top:-70px;
+
+}
+
+.icon{
+
+  display: inline-block;
+  position: relative;
+
+}
+
