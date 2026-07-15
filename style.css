@@ -88,10 +88,17 @@ position: static;
 
 }
 
-.workgroupText{
+.workgroupTextDiv{
 
-  text-align: justify;
-  left: 285px;
+background-color: aliceblue;
+width: 100%;
+
+}
+
+.workgroupText{
+ background-color: aliceblue;
+  text-align: center;
+  left: 215px;
   font-size: 49px ;
   color: rgb(20, 37, 24);
   position:relative;
